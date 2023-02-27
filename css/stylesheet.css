@@ -1,12 +1,28 @@
 body{
-    background-color: aquamarine;
-}
-@media screen and (min-width: 300px) {
-    body{
-        background-color: blue;
-    }
+    background-color: beige;
 }
 @media screen and (min-width: 600px) {
+    nav{
+        display:flex;
+        border: green solid 2px;
+        justify-content: space-around;
+        padding:10px;
+    }
+    
+        
+}
+@media screen and (max-width: 599px) {
+    nav{
+        display:flex;
+        border: green solid 2px;
+        justify-content: space-around;
+        padding:10px;
+    }
+    
+        
+}
+
+/* @media screen and (min-width: 600px) {
     body{
         background-color: red;
     }
@@ -15,7 +31,7 @@ body{
     body{
         background-color: green;
     }
-}
+} */
 /* @media screen and (width: 700px) {
     body{
         background-color: blue;
